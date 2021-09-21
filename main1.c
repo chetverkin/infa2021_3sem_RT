@@ -46,7 +46,7 @@ int main(){
 	int *tokensCount = &x;
 	char A[][];
 	char** tokens;
-	split("sdelal delo idi nahui", " ", tokens, tokensCount);
+	split("sdelal delo i n", " ", tokens, tokensCount);
 	printf("%s\n","Начинаю печаттать слово");
 	for (int i=0; i < *tokensCount + 1; ++i){
 		printf("%c\n", **tokens);
