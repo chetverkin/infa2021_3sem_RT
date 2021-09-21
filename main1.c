@@ -44,8 +44,7 @@ int main(){
 	printf("%s\n","Начало ");
 	int x = 0;
 	int *tokensCount = &x;
-	char A[][];
-	char** tokens;
+	char** tokens = NULL;
 	split("sdelal delo i n", " ", tokens, tokensCount);
 	printf("%s\n","Начинаю печаттать слово");
 	for (int i=0; i < *tokensCount + 1; ++i){
