@@ -15,7 +15,6 @@ void GeneateString(int n){
 	// Печать строк
 	printf("%c\n", letter[0]);
 	for (int i = 0; i < n; ++i){
-		printf("%d\n", i);
 		string2 = strcpy(string2, string1);
 		letterСode+=1;
 		string1[strlen(string1)] = (char)(letterСode);
