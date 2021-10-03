@@ -32,6 +32,7 @@ int main(int argc, char **argv)
 {    
 	int n = 8;
 	char *string1 = malloc((n*n*n)*sizeof(char));
+	// Длина результирующей строки растет как степень двойки, что быстрее, чем n^3. Ну, пусть пока так.
 	GeneateString(n, string1);
 	printf("%s\n", string1);
 	free(string1);
@@ -39,7 +40,3 @@ int main(int argc, char **argv)
 	
 	return 0;
 }
-
-// TODO: 1) нужно самим очистить память, выделенную на кучу, позвав free
-// 2) ф-я генерации строк должна только генерировать одну N-ю строку. вывод на экран перенесите в ф-ю main
-
