@@ -29,7 +29,7 @@ void searchFile(char folder[255], int bottom, int ourLevel, char target[100]){
 	
 	}
 
-
+/// это копия упражнения вашего одногруппника, где переменные названы иначе. не засчитано.
 
 
 
